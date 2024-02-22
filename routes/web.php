@@ -21,3 +21,4 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::post('/store', [HomeController::class, 'store'])->name('store');
+Route::get('/event-store', [HomeController::class, 'storeEvent'])->name('storeEvent');
